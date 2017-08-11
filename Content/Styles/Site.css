@@ -1,0 +1,67 @@
+﻿
+#headerLogo {
+    content: url(../Images/logo.png);
+    height: 80px;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#headerLogo.logo-shrink {
+    content: url(../Images/logo-white.png);
+    height: 70px;
+    position: relative;
+    top: -15px;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-default {
+    height: 150px;
+    box-shadow: 0 0 10px 3px #ccc;
+    background-color: #fff;
+    position: static;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-default.navbar-shrink {
+    height: 90px;
+    border-bottom: 3px solid white;
+    box-shadow: none;
+    background-color: #18275f;
+    position: fixed;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-default .nav li a {
+    color: #18275f;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-default.navbar-shrink .nav li a {
+    color: #fff;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-default.navbar-shrink .nav li a:hover {
+    color: #1dafec;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #1dafec;
+
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
